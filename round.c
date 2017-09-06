@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define ROUND(a)((int)(a+.5))
-#define FLOOR(a)((int)(a+.9))
-#define CEIL(a)((int)(a))
+#define FLOOR(a)((int)(a))
+#define CEIL(a)((int)(a+.9))
 int main()
 {
 	float f;
